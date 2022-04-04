@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 5rem;
+}
+
+.circle {
+  width: 10rem;
+}
+
+.circle img {
+  width: 100%;
+}
+
+.circle img.rotate {
+  animation: rotate 3s 1 backwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
